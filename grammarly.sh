@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Grammarly DMG URL
-GRAMMARLY_DMG_URL="https://download-mac.grammarly.com/Grammarly.dmg"
+GRAMMARLY_DMG_URL="\\PRO1-FILESHR-1\Public\Grammarly.dmg"
 
 # Download the Grammarly DMG file
 echo "Downloading Grammarly DMG..."

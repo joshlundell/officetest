@@ -56,4 +56,3 @@ xattr -r -d com.apple.quarantine "${grammarly_dir}/Grammarly Desktop.app"
 /usr/bin/sudo -u ${currentUser} defaults write com.grammarly.ProjectLlama deferOnboarding -bool YES
 /bin/echo "`date`: Running the app"
 /usr/bin/sudo -u ${currentUser} open "${grammarly_dir}/Grammarly Desktop.app" --args launchSourceInstaller
-exit 0
